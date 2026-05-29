@@ -9,9 +9,6 @@ Local LLM runtime and GGUF model management tool. Think of it as `ollama` for yo
 - **Model management** — search, download, list, and delete GGUF models from HuggingFace Hub
 - **Interactive chat** — REPL mode with multi-turn conversation and streaming output
 - **API server** — OpenAI-compatible `/v1/chat/completions` endpoint with SSE streaming
-- **Think tag rendering** — `<think>` reasoning text displayed with dim styling in terminal
-- **i18n** — English / Chinese UI, switchable at runtime
-- **Offline-first** — works fully offline, no GPU/CUDA/cloud required
 
 ## Install
 
