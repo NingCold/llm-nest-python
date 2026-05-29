@@ -1,28 +1,46 @@
+```gitignore
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
+*$py.class
 
-# Virtual environment
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyright/
+
+# Ruff
+.ruff_cache/
 
 # IDE
-.idea/
 .vscode/
-*.swp
-*.swo
-
-# Tool caches
-.ruff_cache/
-.pytest_cache/
-.mypy_cache/
-.pyright_cache/
-
-# Model files
-*.gguf
+.idea/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Local AI/Agent files
+.opencodex/
+AGENTS.md
+
+# Runtime cache
+.cache/
+
+# Local models
+.llmn/
+```
