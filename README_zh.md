@@ -28,6 +28,8 @@ pip install llm-nest-python[server]
 git clone https://github.com/NingCold/llm-nest-python.git
 cd llm-nest-python
 uv sync
+uv build
+uv tool install .
 uv run llmn --help
 ```
 
